@@ -48,5 +48,3 @@ export const deduct = ([taxablevalue,rates=rates23]) => {
     }
    return accumulated
 }
-
-deduct([20000])
