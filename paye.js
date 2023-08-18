@@ -33,7 +33,7 @@ const rates23 = [
     {band: 5,rate: 0.35 ,lower: 800000,                     upper: Infinity                     },
 ]
 
-export default deduct = ([taxablevalue,rates=rates23]) => {
+export const deduct = ([taxablevalue,rates=rates23]) => {
     let accumulated = 0
     let deducting = true;
     let i = 0;
@@ -49,3 +49,4 @@ export default deduct = ([taxablevalue,rates=rates23]) => {
    return accumulated
 }
 
+deduct([20000])

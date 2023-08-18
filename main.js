@@ -1,6 +1,5 @@
-import "./nhif.js"
-import "./nssf.js"
-import "./paye.js"
+import { nhifcontrib } from "./nhif.js"
+import { contrib } from "./nssf.js"
+import { deduct } from "./paye.js"
 
 
-deduct(25000)

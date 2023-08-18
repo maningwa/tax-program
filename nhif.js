@@ -20,7 +20,7 @@ const nhif_2015=[
 
 
 
-export default nhifcontrib= (gross) => {
+export const nhifcontrib = (gross) => {
     let i = 0
     while (1){
         if(nhif_2015[i].upper<gross){
