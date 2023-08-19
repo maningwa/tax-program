@@ -13,8 +13,8 @@ const process = ({name,PIN, basic, allowances = 0, period = new Date("1/aug/2023
     
     return `
         <div>
-            PIN No.         :   ${PIN}
-            Name            :   ${name}
+            PIN No.         :   ${PIN}  <br>
+            Name            :   ${name} <br>
             PaySlip         :   ${period.getMonth()+"/"+period.getFullYear()} <hr>
             Basic Pay       :   ${basic.toLocaleString()}<br>
             Other Allowances:   ${allowances.toLocaleString()}<br>
