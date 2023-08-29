@@ -1,0 +1,23 @@
+body{
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+}
+
+.detail{
+    margin: 1px;
+    letter-spacing: 1px;
+    tab-size: 5px;
+}
+.slip{
+    display: flex;
+    outline: 1px solid #0004;
+    margin:auto;
+    gap: 2px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+strong{
+    font-weight: 300px;
+}
